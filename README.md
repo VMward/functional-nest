@@ -7,6 +7,7 @@ This project was generated with [Nest](https://github.com/nestjs/nest) framework
 
 ```bash
 $ npm install
+$ npx prisma
 ```
 
 ## Running the app
@@ -20,6 +21,13 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+```
+
+## Prisma 
+
+```bash
+# generate your SQL migration files and run them against the database
+$ npx prisma migrate dev --name init
 ```
 
 ## Test
